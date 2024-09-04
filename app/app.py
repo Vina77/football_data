@@ -3,9 +3,9 @@ import io
 import base64
 import matplotlib.pyplot as plt
 
-from collect import get_match_data
-from process import process_data
-from visualize import plot_scores 
+from main.collect import get_match_data
+from main.process import process_data
+from main.visualize import plot_scores 
 
 
 app = Flask(__name__)
